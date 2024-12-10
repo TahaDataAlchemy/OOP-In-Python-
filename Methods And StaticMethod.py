@@ -1,5 +1,8 @@
 # Method -> class me jo functions hote hai onke methods khete hai 
-
+#Three Types of Method
+#Instance Method : Jisme self atta hai (self) 
+#Class Method : Jisme cls atta hai  (cls)
+#static Method : Jisme kch nhi ata ()
 class Student:
     def __init__(self,name,maths,english,sci):
         self.name = name
